@@ -4,8 +4,8 @@ ARG BUILD_RFC3339="1970-01-01T00:00:00Z"
 ARG COMMIT="local"
 ARG VERSION="v0.4.0"
 
-RUN apt-get install -y gnupg 
 RUN apt-get -y update && apt-get -y dist-upgrade && apt-get clean
+RUN apt-get install -y gnupg 
 RUN apt-get update && \
 apt-get install --no-install-recommends -y \
 ca-certificates \
