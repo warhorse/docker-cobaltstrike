@@ -12,9 +12,9 @@ ca-certificates \
 expect \
 openjdk-11-jdk \
 curl && \
-iproute2 && \
 apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* &&\
 update-java-alternatives -s java-1.11.0-openjdk-amd64
+RUN apt-get update && apt-get install -y iproute2
 
 WORKDIR /opt
 RUN mkdir /opt/cobaltstrike
