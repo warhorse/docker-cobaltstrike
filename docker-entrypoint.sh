@@ -7,7 +7,7 @@ IPADDRESS="$(ip address | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cu
 
 cd /opt/cobaltstrike
 token=`curl -s https://www.cobaltstrike.com/download -d "dlkey=${COBALTSTRIKE_KEY}" | grep 'href="/downloads/' | cut -d '/' -f3`
-curl -s https://www.cobaltstrike.com/downloads/${token}/cobaltstrike-dist.tgz -o /tmp/cobaltstrike.tgz
+curl -s https://download.cobaltstrike.com/downloads/${token}/cobaltstrike-dist.tgz -o /tmp/cobaltstrike.tgz
 tar zxf /tmp/cobaltstrike.tgz -C /opt
 echo $COBALTSTRIKE_KEY > ~/.cobaltstrike.license
 /opt/cobaltstrike/update
