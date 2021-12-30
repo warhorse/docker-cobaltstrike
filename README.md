@@ -1,7 +1,5 @@
 # [warhorse/cobaltstrike](https://github.com/warhorse/docker-cobaltstrike)
-[![GitHub Release](https://img.shields.io/github/release/war-horse/docker-cobaltstrike.svg?style=flat-square&color=E68523)](https://github.com/war-horse/docker-cobaltstrike/releases)
-[![MicroBadger Layers](https://img.shields.io/microbadger/layers/warhorse/cobaltstrike.svg?style=flat-square&color=E68523)](https://microbadger.com/images/warhorse/cobaltstrike "Get your own version badge on microbadger.com")
-[![MicroBadger Size](https://img.shields.io/microbadger/image-size/warhorse/cobaltstrike.svg?style=flat-square&color=E68523)](https://microbadger.com/images/warhorse/cobaltstrike "Get your own version badge on microbadger.com")
+[![Docker](https://github.com/warhorse/docker-cobaltstrike/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/warhorse/docker-cobaltstrike/actions/workflows/docker-publish.yml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/warhorse/cobaltstrike.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/warhorse/cobaltstrike)
 [![Docker Stars](https://img.shields.io/docker/stars/warhorse/cobaltstrike.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/warhorse/cobaltstrike)
 
